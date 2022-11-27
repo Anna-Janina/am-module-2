@@ -88,6 +88,24 @@ p {
     background-position: center;
 }
 
+#small-image-2 {
+    background-image: url("./images/anna\ and\ aurelia\ oct\ 2020\ edited-16.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#small-image-3 {
+background-image: url("./images/anna\ and\ aurelia\ oct\ 2020\ edited-17.jpg");
+background-size: cover;
+background-position: center;
+}
+
+#small-image-4 {
+    background-image: url("./images/anna\ and\ aurelia\ oct\ 2020\ edited-33.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .content {
     margin: 25px 0px;
     padding: 10px 0px;
@@ -103,7 +121,7 @@ p {
 }
 
 .item {
-    border: 5px solid red;
+    border: 5px solid rgb(34, 6, 6);
     background-color: green;
     min-height: 115px;
     min-height: 115px;
@@ -114,7 +132,7 @@ p {
 }
 
 .item div {
-    background-color: yellow;
+    background-color: wheat;
     color: black;
     padding: 10px;
 }
