@@ -10,14 +10,15 @@ html {
 
 body {
     min-height: 100%;
-    line-height: 1;
     background-color: #d9dcd6;
+
 }
 
 /* DONE */
 .header {
     padding: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
     background-color: #b3730d;
     color: black;
 }
@@ -28,13 +29,12 @@ body {
     font-size: 48px;
 }
 
-
 /* ADD @media */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', bold;
     font-size: 20px;
 }
 
@@ -50,6 +50,7 @@ a {
     text-decoration: none;
 }
 
+
 p {
     font-size: 16px;
 }
@@ -60,41 +61,45 @@ p {
     background-image: url("../assets/images/anna\ and\ aurelia\ oct\ 2020\ edited-14.jpg");
     background-size: cover;
     background-position: center;
+    margin: 2% 0%;
 }
 
 #small-image-1 {
     background-image: url("../assets/images/anna\ and\ aurelia\ oct\ 2020\ edited-15.jpg");
     background-size: cover;
     background-position: center;
+    margin: 2% 0;
 }
 
 #small-image-2 {
     background-image: url("./images/anna\ and\ aurelia\ oct\ 2020\ edited-16.jpg");
     background-size: cover;
     background-position: center;
+    margin: 2% 0;
 }
 
 #small-image-3 {
 background-image: url("./images/anna\ and\ aurelia\ oct\ 2020\ edited-17.jpg");
 background-size: cover;
 background-position: center;
+margin: 2% 0%;
 }
 
 #small-image-4 {
     background-image: url("./images/anna\ and\ aurelia\ oct\ 2020\ edited-33.jpg");
     background-size: cover;
     background-position: center;
+    margin: 2% 0%;
 }
 
 .content {
-    margin: 25px 0px;
-    padding: 10px 0px;
+    margin: 0px;
+    padding: 10px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    float: right;
     width: 65%;
-    height: 750px;
+    height: 100%;
 }
 
 .container {
@@ -116,8 +121,10 @@ background-position: center;
 h2 {
     width: 90%;
     display: flex;
+    margin: 2% 0%;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
+    font-family: monospace;
 }
 
 .item div {
@@ -130,10 +137,7 @@ h2 {
     flex-basis: 100%;
 }
 
-.container img {
-    height: 115px;
-    width: 115px;
-}
+
 
 @media screen and (max-width: 768px) {
     .item {
@@ -149,22 +153,30 @@ h2 {
     padding: 20px;
     float: left;
     width: 20%;
-    height: 750px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     background-color: white;
     
+}
+.pic img {
+    width: 200px;
+    height: 200px;
+}
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    line-height: 9;
 }
 
 
 .footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
     bottom: 0;
     padding: 20px;
-    text-align: center;
+    text-align: right;
     background: #b3730d;
     
     
