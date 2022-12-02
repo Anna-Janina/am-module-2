@@ -11,10 +11,8 @@ html {
 body {
     min-height: 100%;
     background-color: #d9dcd6;
-
 }
 
-/* DONE */
 .header {
     padding: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -23,13 +21,17 @@ body {
     color: black;
 }
 
-/* DONE */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* ADD @media */
+@media screen and (max-width: 768px) {
+    .header nav {
+        flex-basis: 50%;
+    }
+}
+
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,25 +40,20 @@ body {
     font-size: 20px;
 }
 
-
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
 
 a {
     color: black;
     text-decoration: none;
 }
 
-
 p {
     font-size: 16px;
 }
 
-
-/* TUTORING CSS */
 .cover-image-1 {
     background-image: url("../assets/images/anna\ and\ aurelia\ oct\ 2020\ edited-14.jpg");
     background-size: cover;
@@ -132,12 +129,11 @@ h2 {
     color: black;
     padding: 10px;
 }
+
 #large-item {
     min-height: 300px;
     flex-basis: 100%;
 }
-
-
 
 @media screen and (max-width: 768px) {
     .item {
@@ -147,26 +143,39 @@ h2 {
         min-height: 150px;
     }
 }
+
 .side {
     display: flex;
     flex-direction: column;
     padding: 20px;
     float: left;
     width: 20%;
-    
-    background-color: white;
-    
+    background-color: white; 
 }
-.pic img {
-    width: 200px;
-    height: 200px;
+
+.profile-photo {
+    width: 240px;
+    height: 240px;
 }
+
+@media screen and (max-width: 768px) {
+    .profile-photo {
+        width: 80px;
+        height: 80px;
+    } 
+} 
+
 h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 27px;
+    font-size: 25.5px;
     line-height: 9;
 }
 
+@media screen and (max-width: 768px) {
+    h4, h2, .header nav {
+        font-size: 15px;
+    }
+}
 
 .footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -177,12 +186,9 @@ h4 {
     bottom: 0;
     padding: 20px;
     text-align: right;
-    background: #b3730d;
-    
-    
+    background: #b3730d; 
   }
 
   .footer ul {
     list-style: none;
-    
   }
